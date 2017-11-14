@@ -3,19 +3,19 @@
 
 <head>
   <title>
-    Get data using axios
+    Get data using Axios
   </title>
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
   <h1>
-    Get some posts using fetch!
+    Get some posts using Axios!
   </h1>
   <ul>
     <% posts.forEach(post => { %>
       <li>
-        <a href="<%= post.id %>">
+        <a href="/posts/<%= post.id %>">
           <%=post.title %>
         </a>
       </li>
