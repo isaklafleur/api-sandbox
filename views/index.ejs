@@ -3,20 +3,25 @@
 
 <head>
   <title>
-    <%= title %>
+    Get data using axios
   </title>
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
   <h1>
-    <%= title %>
+    Get some posts using fetch!
   </h1>
-  <p>Welcome to
-    <%= title %>
-  </p>
+  <ul>
+    <% posts.forEach(post => { %>
+      <li>
+        <a href="<%= post.id %>">
+          <%=post.title %>
+        </a>
+      </li>
+      <% }) %>
 
-  <%= JSON.stringify(posts) %>
+  </ul>
 </body>
 
 </html>
