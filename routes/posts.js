@@ -4,7 +4,6 @@ var router = express.Router();
 
 const URLJSON = "https://jsonplaceholder.typicode.com/posts";
 
-/* GET home page. */
 router.get("/", function(req, res, next) {
   axios
     .get(URLJSON)
