@@ -3,10 +3,9 @@ Using the JSON data from  [JSONPlaceholder](https://jsonplaceholder.typicode.com
 
 # Explaining how to setup a own API server in Express
 
-
-Import the whole country list by running
-
-`$ node ./bin/seed.js`
+## Setup:
+1. start mongo server
+2. Import the whole country list by running: `node ./bin/seed.js` in terminal.
 
 
 ROUTES:
