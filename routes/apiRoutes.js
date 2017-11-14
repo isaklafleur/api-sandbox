@@ -16,7 +16,9 @@ router.get("/countries", (req, res) => {
 });
 
 router.get("/countries/:countryCode", (req, res) => {
-  const cc = req.params.countryCode;
+  // get the country code from the browser bar and convert the string
+  // to upper case so it matches with the string in the database.
+  const cc = req.params.countryCode.toUpperCase();
   Country.find({ code: cc }, (err, result) => {
     if (err) {
       res.status(500).json(err);
