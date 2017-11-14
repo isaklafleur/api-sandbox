@@ -1,8 +1,10 @@
 {
   "extends": "standard",
+  "globals": { "fetch": false },
   "rules": {
     "quotes": ["error", "double"],
     "semi": [2, "always"],
-    "comma-dangle": ["error", "never"]
+    "comma-dangle": ["error", "never"],
+    "space-before-function-paren": ["error", "never"]
   }
 }
