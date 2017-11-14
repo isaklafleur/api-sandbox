@@ -1,5 +1,6 @@
 # Explaining how to use [Axios library](https://github.com/axios/axios)
-Using the JSON data from  [JSONPlaceholder](https://jsonplaceholder.typicode.com)
+Using the JSON data from  [JSONPlaceholder](https://jsonplaceholder.typicode.com) and [Ironhack Movie Characters](https://ih-crud-api.herokuapp.com/characters)
+
 
 # Explaining how to setup a own API server in Express
 
@@ -13,6 +14,11 @@ Using the JSON data from  [JSONPlaceholder](https://jsonplaceholder.typicode.com
 // makes api GET calls to a remote server with help of Axios:
 [http://localhost:3000/posts/](http://localhost:3000/posts/) // list all posts from the source (jsonplaceholder.typicode.com/posts)
 [http://localhost:3000/posts/1](http://localhost:3000/posts/1) // list one unique post by id from the source (jsonplaceholder.typicode.com/posts/1)
+
+// makes api GET calls to a remote server with help of Axios:
+[http://localhost:3000/characters/](http://localhost:3000/characters/) // list all characters from the [source](https://ih-crud-api.herokuapp.com/characters)
+[http://localhost:3000/characters/1](http://localhost:3000/characters/1) // list one unique character by id from the [source](https://ih-crud-api.herokuapp.com/characters)
+
 
 // Serve json data with help of express local
 [http://localhost:3000/api/countries](http://localhost:3000/api/countries) // list all countries in the database you have on your machine.
